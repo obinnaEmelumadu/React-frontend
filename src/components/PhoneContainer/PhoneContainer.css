@@ -11,7 +11,7 @@
   
   .Phone-Single-container {
     background-color: #1e242f;
-    width: 200px;
+    width: 180px;
     margin: 10px;
     text-align: center;
     line-height: 5px;
@@ -27,13 +27,13 @@
     width: 150px;
   }
   
-  .Phone-Single-container > span {
-    border-style: solid;
-    border-radius: 3px;
-    border-color: silver;
+  .Phone-condition {
+    border: 2px solid silver;
+    border-radius: 8px;
     position: relative;
-    left: 76px;
-    top: -200px;
+    left: 120px;
+    width: 59px;
+    top: -215px;
   }
 
   .Phone-Single-container > p {
@@ -52,13 +52,4 @@
 
   .Phone-Single-container > button {
     margin-bottom: 10px;
-  }
-  .grid-collection{
-    display: flex;
-  }
-  @media only screen and (max-width: 900px) {
-    .grid-collection{
-      display: block  ;
-      width: 100%;
-    }
   }

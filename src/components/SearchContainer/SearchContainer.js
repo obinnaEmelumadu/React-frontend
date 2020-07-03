@@ -13,7 +13,7 @@ class SearchContainer extends React.Component {
   
     render(props) {
       return (
-        <div className="Search-container">
+        <div className="Search-container two wide column">
             <p>Price filter</p>
             <form onSubmit={this.props.handle} className="ui input">
                 <input type="number" id="minprice" name="minprice" placeholder="min"></input>

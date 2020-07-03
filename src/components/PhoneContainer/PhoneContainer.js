@@ -94,21 +94,23 @@ class PhoneContainer extends React.Component {
         }
 
         return (
-            <div className="Phone-container">
+            <div className="Phone-container ui container">
                 <NameSearchContainer handle={this.fetchDataSearch}></NameSearchContainer>
-                <div className="grid-collection">
+                <div className="grid-collection ui two column stackable  grid">
                     <SearchContainer handle={this.fetchDataMinMax}></SearchContainer>
-                    <div className="Phone-collection">
-                        {containers.map((container, key) =>
-                            <SinglePhoneContainer 
-                                key={key}
-                                phoneName={container.phoneName} 
-                                condition={container.condition} 
-                                storageSize={container.storageSize} 
-                                price={container.price}
-                                image={container.image} >
-                            </SinglePhoneContainer>
-                        )}
+                    <div className="twelve wide column">
+                        <div className="Phone-collection">
+                            {containers.map((container, key) =>
+                                <SinglePhoneContainer 
+                                    key={key}
+                                    phoneName={container.phoneName} 
+                                    condition={container.condition} 
+                                    storageSize={container.storageSize} 
+                                    price={container.price}
+                                    image={container.image} >
+                                </SinglePhoneContainer>
+                            )}
+                        </div>
                     </div>
                 </div>
                 <LoadContainer handle={this.reloadData}></LoadContainer>
@@ -123,7 +125,7 @@ class SinglePhoneContainer extends React.Component {
             <div className="Phone-Single-container">
               <img src={"./images/"+this.props.image} alt={this.props.phoneName}></img>
               <p className="name">{this.props.phoneName}</p>
-              <span>   {this.props.condition }   </span>
+              <p className="Phone-condition">   {this.props.condition }   </p>
               <p>Unlocked | {this.props.storageSize } GB</p>
               <p>Unit price</p>
               <p className="price">${this.props.price }</p>
