@@ -1,0 +1,149 @@
+[
+  {
+    "phoneName": "iPhone XS Max",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "560",
+    "image": "iphone_xs_max.png"
+  },
+    {
+    "phoneName": "iPhone XS Max",
+    "condition": "A1",
+    "storageSize": "256",
+    "price": "570",
+    "image": "iphone_xs_max.png"
+  },
+    {
+    "phoneName": "iPhone XS Max",
+    "condition": "New",
+    "storageSize": "512",
+    "price": "585",
+    "image": "iphone_xs_max.png"
+  },
+  {
+    "phoneName": "iPhone XS",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "510",
+    "image": "iphone_xs.png"
+  },
+  {
+    "phoneName": "iPhone XR",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "460",
+    "image": "iphone_xr.png"
+  },
+  {
+    "phoneName": "iPhone X",
+    "condition": "B1",
+    "storageSize": "64",
+    "price": "415",
+    "image": "x.png"
+  },
+  {
+    "phoneName": "iPhone X",
+    "condition": "A1",
+    "storageSize": "64",
+    "price": "420",
+    "image": "x.png"
+  },
+  {
+    "phoneName": "iPhone 8",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "460",
+    "image": "iphone_8.png"
+  },
+  {
+    "phoneName": "iPhone 8 Plus",
+    "condition": "B2",
+    "storageSize": "64",
+    "price": "355",
+    "image": "iphone_8_plus.png"
+  },
+  {
+    "phoneName": "iPhone 8 Plus",
+    "condition": "C/D",
+    "storageSize": "64",
+    "price": "345",
+    "image": "iphone_8_plus.png"
+  },
+  {
+    "phoneName": "iPhone 7",
+    "condition": "A1",
+    "storageSize": "512",
+    "price": "485",
+    "image": "iphone_7.png"
+  },
+  {
+    "phoneName": "iPhone 7 Plus",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "430",
+    "image": "iphone_7_plus.png"
+  },
+  {
+    "phoneName": "iPhone 6",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "490",
+    "image": "iphone_6.png"
+  },
+    {
+    "phoneName": "iPhone 6",
+    "condition": "A1",
+    "storageSize": "256",
+    "price": "480",
+    "image": "iphone_6.png"
+  },
+  {
+    "phoneName": "iPhone 6 Plus",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "430",
+    "image": "iphone_6_plus.png"
+  },
+  {
+    "phoneName": "iPhone 6S",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "460",
+    "image": "iphone_6s.png"
+  },
+  {
+    "phoneName": "iPhone 6S Plus",
+    "condition": "New",
+    "storageSize": "64",
+    "price": "430",
+    "image": "iphone_6s_plus.png"
+  },
+  {
+    "phoneName": "iPhone SE",
+    "condition": "New",
+    "storageSize": "128",
+    "price": "80",
+    "image": "iphone_se.png"
+  },
+  {
+    "phoneName": "iPhone SE",
+    "condition": "A2",
+    "storageSize": "64",
+    "price": "50",
+    "image": "iphone_se.png"
+  },
+  {
+    "phoneName": "iPhone SE",
+    "condition": "B1",
+    "storageSize": "128",
+    "price": "55",
+    "image": "iphone_se.png"
+  },
+  {
+    "phoneName": "iPhone SE",
+    "condition": "C",
+    "storageSize": "64",
+    "price": "40",
+    "image": "iphone_se.png"
+  }
+]

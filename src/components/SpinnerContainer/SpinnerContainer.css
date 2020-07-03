@@ -1,0 +1,11 @@
+.Spinner-container{
+    background-color: LightBlue;
+    width: 100%;
+    min-height: 400px;
+  }
+  
+  .Spinner-container > img{
+    margin: auto;
+    padding: 30px;
+    display: block;
+  }

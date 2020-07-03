@@ -1,0 +1,11 @@
+.Search-container {
+  background-color: #1e242f;
+  padding: 5px;
+  width: 100%;
+}
+.Search-container > form {
+  width: 100px;
+}
+.Search-container > form > input{
+  display: block;
+}

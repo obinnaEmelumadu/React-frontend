@@ -1,0 +1,39 @@
+
+.Name-Search-container{
+    display: flex;
+}
+.Name-Search-section {
+    color: white;
+    width: 40%;
+}
+.Name-Search-section > h1 {
+    text-align: left;
+    font-size: xxx-large;
+    padding: 0px 30px;
+}
+.Name-Search-section > form {
+    display: flex;
+    width: 60%;
+    margin-left: 20px;
+}
+.Name-Search-section > form > input {
+    height: 50px;
+    font-size: medium;
+}
+.Name-Search-section > form> #search{
+    width: 100%;
+}
+.Name-Search-section > form> span{
+    margin: 7px;
+}
+.Name-Search-section > form> #submit{
+    font-size: medium;
+}
+.Name-Search-images  {
+    width: 60%;
+    margin-bottom: 50px;
+}
+.Name-Search-images > img {
+    height: 300px;
+    display: inline-block;
+}

@@ -1,0 +1,37 @@
+@keyframes appear {
+  0%   {opacity: 0; width: 0px;}
+  25%  {opacity: 0; width: 0px;}
+  75%  {opacity: 1; width: 200px;}
+}
+
+.Phone-collection {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Phone-Single-container {
+    background-color: #1e242f;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 16px;
+    animation-name: appear;
+    animation-duration: 2s;
+    
+  }
+  
+  .Phone-Single-container > img {
+    padding-top: 10px;
+    width: 150px;
+  }
+  
+  .Phone-Single-container > .name {
+    font-size: 20px;
+  }
+  
+  .Phone-Single-container > .price {
+    font-size: 30px;
+  }
+
+  .grid-collection{}
