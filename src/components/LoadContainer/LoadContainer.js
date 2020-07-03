@@ -10,5 +10,5 @@ class LoadContainer extends React.Component {
       );
     }
   }
-
+ 
 export default LoadContainer;
