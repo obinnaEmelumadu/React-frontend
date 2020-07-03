@@ -122,10 +122,13 @@ class SinglePhoneContainer extends React.Component {
         return (
             <div className="Phone-Single-container">
               <img src={"./images/"+this.props.image} alt={this.props.phoneName}></img>
-              <p className="name">Phone name: {this.props.phoneName}</p>
-              <p>Storage: {this.props.storageSize } GB</p>
-              <p>Condition: {this.props.condition }</p>
-              <p className="price">Price: ${this.props.price }</p>      
+              <p className="name">{this.props.phoneName}</p>
+              <span>   {this.props.condition }   </span>
+              <p>Unlocked | {this.props.storageSize } GB</p>
+              <p>Unit price</p>
+              <p className="price">${this.props.price }</p>
+              <p>100 Available</p>
+              <button className="ui primary button">Buy</button>
             </div>
           
           );

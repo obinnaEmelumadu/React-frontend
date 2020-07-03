@@ -1,10 +1,13 @@
 .Search-container {
   background-color: #1e242f;
   padding: 5px;
-  width: 100%;
+  width: 320px;
+  margin-right: 20px;
 }
 .Search-container > form {
   width: 100px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .Search-container > form > input{
   display: block;
